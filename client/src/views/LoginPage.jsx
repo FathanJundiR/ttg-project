@@ -136,7 +136,7 @@ export default function LoginPage() {
         <div className="w-full h-screen bg-slate-900 flex bg-[url('https://upload.wikimedia.org/wikipedia/en/9/9d/A_selection_of_Roblox_games.png')] bg-cover bg-center">
       <div className="relative z-1 h-full w-full bg-black mt-0 bg-opacity-90 bg-black flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 h-full p-4 md:p-10 flex flex-col justify-center items-start">
-          <div className="w-full  p-4 md:p-8 rounded-lg">
+          <div className="w-full p-4 md:p-8 rounded-lg">
             <span className="span1 text-4xl md:text-7xl">Let The Game</span>
             <p className="span2 text-5xl md:text-8xl">Begin !!</p>
             <p className="mt-10 text-sm md:text-lg text-white">

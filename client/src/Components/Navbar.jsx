@@ -6,12 +6,17 @@ export default function NavigationBar(){
 
     return(
         <>
-        <div className="w-full h-[10vh] bg-slate-800 flex ">
-            <div className="w-[50%] h-full bg-transparent">
-                <img className="h-full w-[20%] object-cover ml-4" src={logo} />
+        <div className="w-full h-[11vh] bg-opacity-90 bg-black flex  z-10">
+            <div className="w-[30%] h-full bg-transparent">
+                <img className="h-full w-[35%] object-cover ml-4" src={logo} />
             </div>
-            <div className="w-[50%] h-full bg-slate-500">
-                <div></div>
+            <div className="w-[40%] h-full flex items-center justify-center gap-10">
+            <div className="text-[20px] text-slate-200">Home</div>
+                <div className="text-[20px] text-slate-200">Services</div>
+                <div className="text-[20px] text-slate-200">About Us</div>
+            </div>
+            <div className="w-[30%] h-full flex justify-end items-center">
+                <button className="button w-[7rem] h-[3rem] border border-2 border-slate-200 rounded-full mr-5 text-[20px] text-slate-300">Log Out</button>
             </div>
         </div>
         </>
