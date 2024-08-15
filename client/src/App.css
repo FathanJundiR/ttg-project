@@ -72,16 +72,11 @@
   0%{
     opacity: 0%;
   }
-
-  50%{
-    opacity: 50%;
-  }
-
+  
   100%{
     opacity: 100%;
   }
 }
-
 
 .FotoSatu{
   -webkit-box-reflect: below 15px linear-gradient(to bottom,transparent 70%,rgba(0, 0, 0, 0.776));

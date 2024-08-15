@@ -64,7 +64,7 @@ export default function HomePage() {
           <CardGAME />
         </div>
         {intro && (
-          <div className="hehe fixed inset-0 bg-slate-700 bg-opacity-70 flex z-20 flex items-center justify-center">
+          <div className="hehe fixed inset-0 bg-slate-black bg-opacity-70 backdrop-blur-md flex z-20 flex items-center justify-center">
             <div className="w-[60vw] h-[80vh] flex">
               <div className="w-[30%] h-full flex items-end">
                 <img
